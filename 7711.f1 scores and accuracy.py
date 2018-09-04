@@ -23,7 +23,7 @@ acc_list = []
 
 TP = 20
 FP= 10
-FN= 10
+FN= 5
 
 for x in range (5,25):
     TN = 10* x
