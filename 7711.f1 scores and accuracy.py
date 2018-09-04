@@ -23,7 +23,7 @@ acc_list = []
 
 TP = 20
 FP= 10
-FN= 5
+FN= 10
 
 for x in range (5,25):
     TN = 10* x
@@ -44,7 +44,7 @@ plt.plot(TN_list, F1_list, '-b', label = 'F score')
 plt.plot(TN_list, acc_list, '-r', label= 'Accuracy')
 plt.ylim(0,1)
 plt.title('Accuracy and F score')
-plt.xlabel('Number of False Negatives')
+plt.xlabel('Number of True Negatives')
 plt.legend(loc='right')
 plt.show()
     
